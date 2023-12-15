@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Fira sans';
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 754px;
+    padding-bottom: 0;
+    background-color: #EEE;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 100px;
+    font-size: 12px;
+}
+
+header nav ul li:nth-child(2) {
+    color: #999999;
+}
+
+header nav ul li:nth-child(3) {
+    color: #999999;
+}
+
+header nav ul li:nth-child(4) {
+    color: #999999;
+}
+
+header nav ul li:nth-child(5) {
+    color: #999999;
+}
+
+header nav ul li:nth-child(6) {
+    color: #999999;
+}
+
+button {
+    background-color: #EEE;
+    width: 146px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    font-family: 'Fira Sans';
+    font-size: 12px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.Header-H1 {
+    font-size: 53px;
+    margin-top: 72px;
+    margin-bottom: 0;
+}
+
+.Header-p {
+    font-size: 16px;
+    text-align: center;
+    width: 550px;
+    color: #222222CC;
+}
+
+.Download {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin: 40px;
+}
+
+.Phone {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/* Header^^^*/
+
+main h1 {
+    display: grid;
+    justify-content: center;
+    font-size: 53px;
+    margin-top: 140px;
+    margin-bottom: 95px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.product-card {
+    border-radius: 3px;
+    background-color: #EBEBEB;
+    width: 262px;
+    height: 383px;
+    text-align: center;
+}
+
+
+.product-card img {
+    padding-bottom: 95px;
+    padding-top: 90px;
+}
+
+
+.product-card h2 {
+    font-size: 22px;
+}
+
+
+.grid-wrapper-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    gap: 25px;
+}
+
+
+.collection-card {
+    background-color: #343332;
+    border-radius: 3px;
+    width: 549px;
+    height: 349px;
+    text-align: center;
+}
+
+
+.collection-card h2 {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin: 0;
+    padding-top: 115px;
+}
+
+
+.collection-card h3 {
+    color: #FFFFFF99;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.collection-card button {
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    color: rgba(255, 255, 255, 0.60);
+    background-color: #343332;
+    width: 146px;
+    height: 40px;
+    font-size: 12px;
+
+
+}
+
+
+/* Main^^^*/
+footer {
+    background-image: url(footer\ map\ bg.png);
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-box {
+    background-color: white;
+    margin-right: 195px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 434px;
+    height: 417px;
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.10);
+}
+
+.contact-box h1 {
+    font-size: 53px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.contact-box h3 {
+    color: rgba(34, 34, 34, 0.80);
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+.contact-box h4 {
+    height: 41px;
+    color: rgba(34, 34, 34, 0.60);
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 40px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.info img {
+    padding-right: 15px;
+}
+
+@media screen and (max-width:500px) {
+    header {
+        height: 659px;
+    }
+
+    .Header-H1 {
+        margin-top: 100px;
+        font-size: 36px;
+
+    }
+
+    .Header-p {
+        font-size: 12px;
+        width: 282px;
+    }
+
+    .Phone {
+        width: 276px;
+        height: 252px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    header button {
+        display: none;
+
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    main h1 {
+        margin: 50px;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        padding: 0 1rem;
+        gap: 20px;
+
+    }
+
+    .product-card {
+        border-radius: 3px;
+        background-color: #EBEBEB;
+        height: 238px;
+        width: 163px;
+    }
+
+    .product-card img {
+        height: 60px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .product-card h2 {
+        font-size: 22px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .product-card p {
+        margin: 0;
+    }
+
+    .grid-wrapper-2 {
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 35px;
+        margin-bottom: 200px;
+        gap: 30px;
+
+    }
+
+    .collection-card {
+        width: 343px;
+        height: 216px;
+        margin: 0;
+    }
+
+    .collection-card h2 {
+        font-size: 36px;
+        padding-top: 40px;
+
+    }
+
+    .collection-card h3 {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-container {
+        display: flex;
+
+    }
+
+    .contact-box {
+        margin-right: 0;
+        width: 343px;
+        height: 417px;
+    }
+
+    .contact-box h1 {
+        font-size: 36px;
+        padding-top: 10px;
+    }
+
+    .contact-box h3 {
+        font-size: 18px;
+    }
+
+    .contact-box h4 {
+        width: 276px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
